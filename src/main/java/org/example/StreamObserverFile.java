@@ -9,11 +9,11 @@ import userappstubs.file;
 
 public class StreamObserverFile implements StreamObserver<file> {
 
-    private final Path path;
+    //private final Path path;
     private String pathString;
-    public StreamObserverFile(Path path, String pathString){
+    public StreamObserverFile(String pathString){
         this.pathString = pathString;
-        this.path = path;
+        //this.path = path;
     }
 
 
