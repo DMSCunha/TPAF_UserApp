@@ -23,7 +23,7 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
-        //... svcIP:svcPort
+        //.. svcIP:svcPort
         if(args.length == 1){
             svcIp = setSvcIp(args[0]);
             svcPort = setSvcPort(args[0]);
